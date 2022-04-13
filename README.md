@@ -152,7 +152,7 @@ await storage.length()
 
 To enumerate the stored key/value pairs:
 ```javascript
-storage.forEach((key, value, index) => {
+storage.forEach((value, key, index) => {
 });
 ```
 
